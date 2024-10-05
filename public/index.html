@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon-32x32.png" type="image/x-icon" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+</head>
+<body class="container ">
+    <header class="border-1 flex justify-end pt-6 p-6">
+        <svg class="sm:hidden" width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg ">
+        <path d="M4 18L20 18" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+        <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+        <path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+
+    <nav class="hidden md:block   "> 
+        <ul  class="flex justify-between gap-4 font-medium pr-14">
+            <li><a href="works.html" class="text-lg hover:underline decoration-blue-500 decoration-2 cursor-pointer">Works</a></li>
+            <li><a href="Blog.html" class="text-lg hover:underline decoration-blue-500 decoration-2 cursor-pointer">Blog</a></li>
+            <li><a href="work_detail.html" class="text-lg hover:underline decoration-blue-500 decoration-2 cursor-pointer">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+        <main class=" p-6">
+            <section class="flex flex-col-reverse md:px-16 md:flex-row items-center text-center md:text-left gap-2">
+                
+                <div class="md:w-1/2">
+                    <h1 class="text-2xl md:text-5xl font-bold text-[#21243D]">Hi, I am David,</br>web developer</h1>
+                        <p class="mt-4 text-l md:lg text-[#21243D]">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet </br>sint. Velit officia consequat duis
+                             enim velit mollit. Exercitation </br>veniam consequat sunt nostrud amet.
+                        </p>
+                        <a href="#" download="David_resume.pdf" class="inline-flex items-center md:px-6 md:py-3 px-5 py-3 bg-[#FF6464] text-white font-medium text-l md:lg mt-5">
+                           Download Resume 
+                        </a>
+                </div>
+                <div class="mb-8 md:w-1/2 mt-8 md:mt-0 md:flex md:justify-end mt-2">
+                    <img src="./img/profile.png" class="rounded-full w-40 h-40" alt="Dave's image ">
+                </div>
+            </section>
+
+            <!--RECENT POSTS SECTION-->
+            <section class="bg-[#EDF7FA] md:max-w-full p-6 rounded-lgmt-16 mt-10">
+                <div class="flex justify-between items-center">
+                  <h2 class="text-xl font-semibold text-gray-800">Recent posts</h2>
+                  <a href="#" class="text-[#00A8CC] hover:underline">View all</a>
+                </div>
+        
+                <div class="flex flex-col justify-center md:flex-row gap-6 mt-6">
+                  <!--card starts-->
+                  <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl text[#21243D] font-bold mb-3">
+                      Making a design system from scratch
+                    </h3>
+                    <p class="flex gap-5 mb-3 text-[#21243D] text-lg mt-2">
+                      12 Feb 2020 | Design, Pattern
+                    </p>
+                    <p class="text-[#21243D] mt-4">
+                      Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                      amet sint. Velit officia consequat duis enim velit mollit.
+                      Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                  </div>
+        
+                  <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl text[#21243D] font-bold mb-3">
+                      Creating pixel perfect icons in Figma
+                    </h3>
+                    <p class="flex gap-5 mb-3 text-[#21243D] text-lg mt-2">
+                      12 Feb 2020 | Figma, Icon Design
+                    </p>
+                    <p class="text-[#21243D] mt-4">
+                      Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                      amet sint. Velit officia consequat duis enim velit mollit.
+                      Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                  </div>
+                </div>
+              </section>
+            <!--FEATURED WORKS SECTION-->
+              <section class="mt-16">
+                <h2 class="text-2xl font-semibold text-[#21243D]">Featured works</h2>
+                <div class="mt-6 space-y-6">
+                  <div class="flex flex-col md:flex-row items-center p-6">
+                    <img
+                      src="./img/Featured 1.png"
+                      alt="Designing Dashboards"
+                      class="w-full md:w-40 h-auto rounded-md"
+                    />
+                    <div class="mt-4 md:mt-0 md:ml-6">
+                      <h3 class="text-2xl font-bold text-[#21243D]">
+                        Designing Dashboards
+                      </h3>
+                      <span
+                        class="inline-block mt-2 bg-[#142850] text-lg font-bold px-2 py-1 rounded-full text-sm text-white"
+                        >2020</span
+                      >
+                      <span class="inline-block ml-4 text-[#8695A4]">Dashboard</span>
+                      <p class="text-[#21243D] mt-2">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                        amet sint. Velit officia consequat duis enim velit mollit.
+                        Exercitation veniam consequat sunt nostrud amet.
+                      </p>
+                    </div>
+                  </div>
+                  <hr />
+        
+                  <div class="flex flex-col md:flex-row items-center p-6">
+                    <img
+                      src="./imG/featured 2.png"
+                      alt="Vibrant Portraits of 2020"
+                      class="w-full md:w-40 h-auto rounded-md"
+                    />
+                    <div class="mt-4 md:mt-0 md:ml-6">
+                      <h3 class="text-2xl font-bold text-[#21243D]">
+                        Vibrant Portraits of 2020
+                      </h3>
+                      <span
+                        class="inline-block mt-2 bg-[#142850] text-lg font-bold px-2 py-1 rounded-full text-sm text-white"
+                        >2018</span
+                      >
+                      <span class="inline-block ml-4 text-[#8695A4]">Illustration</span>
+                      <p class="text-[#21243D] mt-2">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                        amet sint. Velit officia consequat duis enim velit mollit.
+                        Exercitation veniam consequat sunt nostrud amet.
+                      </p>
+                    </div>
+                  </div>
+                  <hr />
+        
+                  <div class="flex flex-col md:flex-row items-center p-6">
+                    <img
+                      src="./img/featured 3.png"
+                      alt="36 Days of Malayalam type"
+                      class="w-full md:w-40 h-auto rounded-md"
+                    />
+                    <div class="mt-4 md:mt-0 md:ml-6">
+                      <h3 class="text-2xl font-bold text-[#21243D]">
+                        36 Days of Malayalam type
+                      </h3>
+                      <span
+                        class="inline-block mt-2 bg-[#142850] text-lg font-bold px-2 py-1 rounded-full text-sm text-white"
+                        >2018</span
+                      >
+                      <span class="inline-block ml-4 text-[#8695A4]">Typography</span>
+                      <p class="text-[#21243D] mt-2">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                        amet sint. Velit officia consequat duis enim velit mollit.
+                        Exercitation veniam consequat sunt nostrud amet.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+
+        </main>
+
+        <footer class="mt-16 mb-16 text-center text-gray-600">
+            <div class="flex justify-center gap-5">
+              <a href="#" class="text-gray-800 cursor-pointer text-2xl">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="#" class="text-gray-800 cursor-pointer text-2xl">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="text-gray-800 cursor-pointer text-2xl">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="text-gray-800 cursor-pointer text-2xl">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+            <p class="mt-4">© 2020 All rights reserved</p>
+          </footer>
+</body>
+</html>
